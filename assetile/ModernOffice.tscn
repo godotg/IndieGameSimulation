@@ -1,16 +1,6 @@
-[gd_scene load_steps=12 format=3 uid="uid://bbdvlll2fn0ov"]
+[gd_scene load_steps=2 format=3 uid="uid://bbdvlll2fn0ov"]
 
 [ext_resource type="TileSet" uid="uid://p84owbpyf3rk" path="res://assetile/ModernOffice.tres" id="1_k54py"]
-[ext_resource type="Texture2D" uid="uid://bhkad6sqprlwl" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_333.png" id="2_w2han"]
-[ext_resource type="Texture2D" uid="uid://ctfutqquf3qhg" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_170.png" id="3_2fd2s"]
-[ext_resource type="Texture2D" uid="uid://dvuh4uyfgb03y" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_114.png" id="4_p8a0b"]
-[ext_resource type="Texture2D" uid="uid://c6hs4ryx78rd0" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_171.png" id="5_5x4ri"]
-[ext_resource type="Texture2D" uid="uid://dm0s2wwc21eil" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_99.png" id="6_m1ps4"]
-[ext_resource type="Texture2D" uid="uid://bpvdnadvjmtab" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_163.png" id="7_ytwtt"]
-[ext_resource type="Texture2D" uid="uid://dgwlts0poph0j" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_167.png" id="8_2fya7"]
-[ext_resource type="Texture2D" uid="uid://dmwjq1bj2kvrt" path="res://asset/tile/modern_office/Modern_Office_Singles_48x48_173.png" id="9_dt8xa"]
-[ext_resource type="Texture2D" uid="uid://32sbgj1m5r6i" path="res://asset/tile/modern_office/desk4.png" id="10_4wqp5"]
-[ext_resource type="Texture2D" uid="uid://b8pjxhahnd7cg" path="res://asset/tile/modern_office/chair2.png" id="11_7olin"]
 
 [node name="ModernOffice" type="Node2D"]
 
@@ -25,68 +15,3 @@ layer_1/y_sort_enabled = false
 layer_1/y_sort_origin = 0
 layer_1/z_index = 10
 layer_1/tile_data = PackedInt32Array(131077, 720896, 12, 196621, 458752, 12, 393222, 0, 26, 393223, 65536, 26, 393224, 131072, 26, 393225, 196608, 26, 393226, 262144, 26, 393227, 327680, 26, 393228, 393216, 26, 393229, 262144, 26, 393230, 327680, 26, 393231, 393216, 26)
-
-[node name="Wall" type="Node2D" parent="."]
-texture_filter = 1
-
-[node name="ModernOfficeSingles48x48333" type="Sprite2D" parent="Wall"]
-position = Vector2(312, 160)
-texture = ExtResource("2_w2han")
-
-[node name="ModernOfficeSingles48x48170" type="Sprite2D" parent="Wall"]
-position = Vector2(464, 120)
-texture = ExtResource("3_2fd2s")
-
-[node name="ModernOfficeSingles48x48114" type="Sprite2D" parent="Wall"]
-position = Vector2(584, 120)
-texture = ExtResource("4_p8a0b")
-
-[node name="ModernOfficeSingles48x48171" type="Sprite2D" parent="Wall"]
-position = Vector2(760, 120)
-texture = ExtResource("5_5x4ri")
-
-[node name="ModernOfficeSingles48x4899" type="Sprite2D" parent="Wall"]
-position = Vector2(864, 160)
-texture = ExtResource("6_m1ps4")
-
-[node name="ModernOfficeSingles48x48163" type="Sprite2D" parent="Wall"]
-position = Vector2(928, 112)
-texture = ExtResource("7_ytwtt")
-
-[node name="ModernOfficeSingles48x48167" type="Sprite2D" parent="Wall"]
-position = Vector2(928, 160)
-texture = ExtResource("8_2fya7")
-
-[node name="ModernOfficeSingles48x48173" type="Sprite2D" parent="Wall"]
-position = Vector2(992, 168)
-texture = ExtResource("9_dt8xa")
-
-[node name="Desk" type="Node2D" parent="."]
-texture_filter = 1
-
-[node name="ModernOfficeSingles48x48102" type="Sprite2D" parent="Desk"]
-position = Vector2(432, 224)
-texture = ExtResource("11_7olin")
-
-[node name="ModernOfficeSingles48x48103" type="Sprite2D" parent="Desk"]
-position = Vector2(568, 224)
-texture = ExtResource("11_7olin")
-
-[node name="ModernOfficeSingles48x48104" type="Sprite2D" parent="Desk"]
-position = Vector2(712, 224)
-texture = ExtResource("11_7olin")
-
-[node name="Desk4" type="Sprite2D" parent="Desk"]
-position = Vector2(404, 300)
-z_index = 5
-texture = ExtResource("10_4wqp5")
-
-[node name="Desk5" type="Sprite2D" parent="Desk"]
-position = Vector2(547, 300)
-z_index = 5
-texture = ExtResource("10_4wqp5")
-
-[node name="Desk6" type="Sprite2D" parent="Desk"]
-position = Vector2(691, 302)
-z_index = 5
-texture = ExtResource("10_4wqp5")
