@@ -64,6 +64,18 @@ texture = ExtResource("9_dt8xa")
 [node name="Desk" type="Node2D" parent="."]
 texture_filter = 1
 
+[node name="ModernOfficeSingles48x48102" type="Sprite2D" parent="Desk"]
+position = Vector2(432, 224)
+texture = ExtResource("11_7olin")
+
+[node name="ModernOfficeSingles48x48103" type="Sprite2D" parent="Desk"]
+position = Vector2(568, 224)
+texture = ExtResource("11_7olin")
+
+[node name="ModernOfficeSingles48x48104" type="Sprite2D" parent="Desk"]
+position = Vector2(712, 224)
+texture = ExtResource("11_7olin")
+
 [node name="Desk4" type="Sprite2D" parent="Desk"]
 position = Vector2(404, 300)
 z_index = 5
@@ -78,15 +90,3 @@ texture = ExtResource("10_4wqp5")
 position = Vector2(691, 302)
 z_index = 5
 texture = ExtResource("10_4wqp5")
-
-[node name="ModernOfficeSingles48x48102" type="Sprite2D" parent="."]
-position = Vector2(432, 224)
-texture = ExtResource("11_7olin")
-
-[node name="ModernOfficeSingles48x48103" type="Sprite2D" parent="."]
-position = Vector2(568, 224)
-texture = ExtResource("11_7olin")
-
-[node name="ModernOfficeSingles48x48104" type="Sprite2D" parent="."]
-position = Vector2(712, 224)
-texture = ExtResource("11_7olin")
