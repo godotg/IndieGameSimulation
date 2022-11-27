@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ba8xfm2qwfsbr"
-path="res://.godot/imported/Modern_Office_Singles_48x48_307.png-9fb2a695e9fa1fd6a86fb962e9043404.ctex"
+uid="uid://do1asflxte8fp"
+path="res://.godot/imported/chair3.png-b6e68b47e4321c09673b73d560475a09.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/tile/modern_office/Modern_Office_Singles_48x48_307.png"
-dest_files=["res://.godot/imported/Modern_Office_Singles_48x48_307.png-9fb2a695e9fa1fd6a86fb962e9043404.ctex"]
+source_file="res://asset/tile/modern_office/chair3.png"
+dest_files=["res://.godot/imported/chair3.png-b6e68b47e4321c09673b73d560475a09.ctex"]
 
 [params]
 
