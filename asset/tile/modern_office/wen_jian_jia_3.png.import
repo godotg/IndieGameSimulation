@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfmks12ewwwnw"
-path="res://.godot/imported/shou_ti_xiang_9.png-13734c0fae4cb83bddf45dbea30cfc5a.ctex"
+uid="uid://88bjxb8ya8uy"
+path="res://.godot/imported/wen_jian_jia_3.png-1fc63a7e41020fd857258f40bc668977.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset/tile/modern_office/shou_ti_xiang_9.png"
-dest_files=["res://.godot/imported/shou_ti_xiang_9.png-13734c0fae4cb83bddf45dbea30cfc5a.ctex"]
+source_file="res://asset/tile/modern_office/wen_jian_jia_3.png"
+dest_files=["res://.godot/imported/wen_jian_jia_3.png-1fc63a7e41020fd857258f40bc668977.ctex"]
 
 [params]
 

@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bbdvlll2fn0ov"]
+[gd_scene load_steps=3 format=3 uid="uid://bbdvlll2fn0ov"]
 
 [ext_resource type="TileSet" uid="uid://p84owbpyf3rk" path="res://assetile/ModernOffice.tres" id="1_k54py"]
+[ext_resource type="Texture2D" uid="uid://d3bhjdsyx5uay" path="res://asset/Modern_Office.png" id="2_pmibj"]
 
 [node name="ModernOffice" type="Node2D"]
 
@@ -15,3 +16,8 @@ layer_1/y_sort_enabled = false
 layer_1/y_sort_origin = 0
 layer_1/z_index = 10
 layer_1/tile_data = PackedInt32Array(131077, 720896, 12, 196621, 458752, 12, 393222, 0, 26, 393223, 65536, 26, 393224, 131072, 26, 393225, 196608, 26, 393226, 262144, 26, 393227, 327680, 26, 393228, 393216, 26, 393229, 262144, 26, 393230, 327680, 26, 393231, 393216, 26)
+
+[node name="ModernOffice" type="Sprite2D" parent="."]
+position = Vector2(592, 208)
+texture = ExtResource("2_pmibj")
+region_enabled = true
